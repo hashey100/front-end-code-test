@@ -28,10 +28,10 @@ $ yarn run dev
 ## Test tasks
 The test involves displaying a list of articles which are to be filterable and searchable.
 
-1. Add a new route, accessible at `/articles`.
+1. Add a new route, accessible in the browser at `http://localhost:3000/articles`.
 
 2. Create a reusable component inside that page's route template which displays a simple list of the articles.
- - The data for these articles should be imported from the 'articles' store module (`/store/articles`).
+ - The data for these articles should be imported from the 'articles' store module (`~/store/articles`).
  - The list should show the article's title and date. Add a little basic styling to the list - but you won't be judged on the design.
 
 3. Add a select (dropdown) form element at the top of the page. This should act as a category filter for the visible articles. Add options in the select element to filter by these categories:
