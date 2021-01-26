@@ -23,7 +23,7 @@ export const state = () => ({
     {
       title: 'How Crêpeaffaire improved efficiency & increased ATV by 30%',
       date: '25th November 2020',
-      categories: ['case-studies']
+      categories: ['case-studies', 'general']
     }
   ]
 })
