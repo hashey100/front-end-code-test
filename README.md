@@ -6,10 +6,9 @@ Please fork this repository to get started.
 ### Requirements
 Ensure you have these installed:
 - Node LTS
-- NPM or Yarn: [https://classic.yarnpkg.com/en/docs/install/](https://classic.yarnpkg.com/en/docs/install/)
+- Yarn: [https://classic.yarnpkg.com/en/docs/install/](https://classic.yarnpkg.com/en/docs/install/)
 
 ## Build setup
-We will give these commands using Yarn however this can be substituded for NPM.
 
 ``` bash
 # install dependencies
@@ -44,4 +43,4 @@ The test involves displaying a list of articles which are to be filterable and s
  
 4. Add a text input form element at the top of the page. This should act as a text search, which filters the list of articles based on their titles. Eg. if a user enters 'Wi5' in the search field, only articles containing the string 'Wi5' should display. Clearing the field should show the full list of articles again.
 
-5. If you have time, make the category filter work in conjunction with the search field. Eg. if the 'News' category is selected and the user searches for 'Wi5', only display articles that belong to the 'News' category with 'Wi5' in its name.
+5. If you have time, make the category filter work in conjunction with the search field. Eg. if the 'News' category is selected and the user searches for 'Wi5', only display articles that belong to the 'News' category with 'Wi5' in its title.
